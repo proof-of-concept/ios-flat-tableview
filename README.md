@@ -1,4 +1,4 @@
 ios-flat-tableview
 ==================
 
-Grouped tableview without rounded corners
+Grouped UITableView with custom border radius
