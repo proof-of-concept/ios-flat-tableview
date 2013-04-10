@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E068DCC8171514EA006DA7D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCC7171514EA006DA7D4 /* UIKit.framework */; };
+		E068DCCA171514EA006DA7D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCC9171514EA006DA7D4 /* Foundation.framework */; };
+		E068DCCC171514EA006DA7D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCCB171514EA006DA7D4 /* CoreGraphics.framework */; };
+		E068DCD2171514EA006DA7D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E068DCD0171514EA006DA7D4 /* InfoPlist.strings */; };
+		E068DCD4171514EA006DA7D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E068DCD3171514EA006DA7D4 /* main.m */; };
+		E068DCD8171514EA006DA7D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E068DCD7171514EA006DA7D4 /* AppDelegate.m */; };
+		E068DCDA171514EA006DA7D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E068DCD9171514EA006DA7D4 /* Default.png */; };
+		E068DCDC171514EA006DA7D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E068DCDB171514EA006DA7D4 /* Default@2x.png */; };
+		E068DCDE171514EA006DA7D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E068DCDD171514EA006DA7D4 /* Default-568h@2x.png */; };
+		E068DCE1171514EA006DA7D4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E068DCDF171514EA006DA7D4 /* MainStoryboard.storyboard */; };
+		E068DCEF17151567006DA7D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCED1715155B006DA7D4 /* QuartzCore.framework */; };
+		E068DCF21715161A006DA7D4 /* FlatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E068DCF11715161A006DA7D4 /* FlatTableViewController.m */; };
+		E068DCF51715240D006DA7D4 /* FlatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E068DCF41715240D006DA7D4 /* FlatTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E068DCC4171514EA006DA7D4 /* FlatTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E068DCC7171514EA006DA7D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E068DCC9171514EA006DA7D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E068DCCB171514EA006DA7D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E068DCCF171514EA006DA7D4 /* FlatTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlatTableView-Info.plist"; sourceTree = "<group>"; };
+		E068DCD1171514EA006DA7D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E068DCD3171514EA006DA7D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E068DCD5171514EA006DA7D4 /* FlatTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlatTableView-Prefix.pch"; sourceTree = "<group>"; };
+		E068DCD6171514EA006DA7D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E068DCD7171514EA006DA7D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E068DCD9171514EA006DA7D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E068DCDB171514EA006DA7D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E068DCDD171514EA006DA7D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E068DCE0171514EA006DA7D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E068DCED1715155B006DA7D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E068DCF01715161A006DA7D4 /* FlatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatTableViewController.h; sourceTree = "<group>"; };
+		E068DCF11715161A006DA7D4 /* FlatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatTableViewController.m; sourceTree = "<group>"; };
+		E068DCF31715240D006DA7D4 /* FlatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatTableViewCell.h; sourceTree = "<group>"; };
+		E068DCF41715240D006DA7D4 /* FlatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E068DCC1171514EA006DA7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E068DCEF17151567006DA7D4 /* QuartzCore.framework in Frameworks */,
+				E068DCC8171514EA006DA7D4 /* UIKit.framework in Frameworks */,
+				E068DCCA171514EA006DA7D4 /* Foundation.framework in Frameworks */,
+				E068DCCC171514EA006DA7D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E068DCBB171514EA006DA7D4 = {
+			isa = PBXGroup;
+			children = (
+				E068DCCD171514EA006DA7D4 /* FlatTableView */,
+				E068DCC6171514EA006DA7D4 /* Frameworks */,
+				E068DCC5171514EA006DA7D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E068DCC5171514EA006DA7D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E068DCC4171514EA006DA7D4 /* FlatTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E068DCC6171514EA006DA7D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E068DCED1715155B006DA7D4 /* QuartzCore.framework */,
+				E068DCC7171514EA006DA7D4 /* UIKit.framework */,
+				E068DCC9171514EA006DA7D4 /* Foundation.framework */,
+				E068DCCB171514EA006DA7D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E068DCCD171514EA006DA7D4 /* FlatTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E068DCD6171514EA006DA7D4 /* AppDelegate.h */,
+				E068DCD7171514EA006DA7D4 /* AppDelegate.m */,
+				E068DCDF171514EA006DA7D4 /* MainStoryboard.storyboard */,
+				E068DCF01715161A006DA7D4 /* FlatTableViewController.h */,
+				E068DCF11715161A006DA7D4 /* FlatTableViewController.m */,
+				E068DCF31715240D006DA7D4 /* FlatTableViewCell.h */,
+				E068DCF41715240D006DA7D4 /* FlatTableViewCell.m */,
+				E068DCCE171514EA006DA7D4 /* Supporting Files */,
+			);
+			path = FlatTableView;
+			sourceTree = "<group>";
+		};
+		E068DCCE171514EA006DA7D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E068DCCF171514EA006DA7D4 /* FlatTableView-Info.plist */,
+				E068DCD0171514EA006DA7D4 /* InfoPlist.strings */,
+				E068DCD3171514EA006DA7D4 /* main.m */,
+				E068DCD5171514EA006DA7D4 /* FlatTableView-Prefix.pch */,
+				E068DCD9171514EA006DA7D4 /* Default.png */,
+				E068DCDB171514EA006DA7D4 /* Default@2x.png */,
+				E068DCDD171514EA006DA7D4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E068DCC3171514EA006DA7D4 /* FlatTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E068DCE7171514EA006DA7D4 /* Build configuration list for PBXNativeTarget "FlatTableView" */;
+			buildPhases = (
+				E068DCC0171514EA006DA7D4 /* Sources */,
+				E068DCC1171514EA006DA7D4 /* Frameworks */,
+				E068DCC2171514EA006DA7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlatTableView;
+			productName = FlatTableView;
+			productReference = E068DCC4171514EA006DA7D4 /* FlatTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E068DCBC171514EA006DA7D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Benjamin Philipp";
+			};
+			buildConfigurationList = E068DCBF171514EA006DA7D4 /* Build configuration list for PBXProject "FlatTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E068DCBB171514EA006DA7D4;
+			productRefGroup = E068DCC5171514EA006DA7D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E068DCC3171514EA006DA7D4 /* FlatTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E068DCC2171514EA006DA7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E068DCD2171514EA006DA7D4 /* InfoPlist.strings in Resources */,
+				E068DCDA171514EA006DA7D4 /* Default.png in Resources */,
+				E068DCDC171514EA006DA7D4 /* Default@2x.png in Resources */,
+				E068DCDE171514EA006DA7D4 /* Default-568h@2x.png in Resources */,
+				E068DCE1171514EA006DA7D4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E068DCC0171514EA006DA7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E068DCD4171514EA006DA7D4 /* main.m in Sources */,
+				E068DCD8171514EA006DA7D4 /* AppDelegate.m in Sources */,
+				E068DCF21715161A006DA7D4 /* FlatTableViewController.m in Sources */,
+				E068DCF51715240D006DA7D4 /* FlatTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E068DCD0171514EA006DA7D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E068DCD1171514EA006DA7D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E068DCDF171514EA006DA7D4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E068DCE0171514EA006DA7D4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E068DCE5171514EA006DA7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E068DCE6171514EA006DA7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E068DCE8171514EA006DA7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatTableView/FlatTableView-Prefix.pch";
+				INFOPLIST_FILE = "FlatTableView/FlatTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E068DCE9171514EA006DA7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlatTableView/FlatTableView-Prefix.pch";
+				INFOPLIST_FILE = "FlatTableView/FlatTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E068DCBF171514EA006DA7D4 /* Build configuration list for PBXProject "FlatTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E068DCE5171514EA006DA7D4 /* Debug */,
+				E068DCE6171514EA006DA7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E068DCE7171514EA006DA7D4 /* Build configuration list for PBXNativeTarget "FlatTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E068DCE8171514EA006DA7D4 /* Debug */,
+				E068DCE9171514EA006DA7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E068DCBC171514EA006DA7D4 /* Project object */;
+}
