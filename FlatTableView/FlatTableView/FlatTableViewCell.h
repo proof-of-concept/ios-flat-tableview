@@ -8,18 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FlatTableViewCell : UITableViewCell {
-  CGFloat topLeft;
-  CGFloat topRight;
-  CGFloat bottomLeft;
-  CGFloat bottomRight;
-  UIColor *cellBackgroundColor;
-}
+@interface FlatTableViewCell : UITableViewCell
 
-@property (nonatomic, retain) UIColor *cellBackgroundColor;
-@property (nonatomic) CGFloat topLeft;
-@property (nonatomic) CGFloat topRight;
-@property (nonatomic) CGFloat bottomLeft;
-@property (nonatomic) CGFloat bottomRight;
+@property (nonatomic, strong) UIColor *cellBackgroundColor;
+@property (nonatomic, strong) NSNumber *topLeft;
+@property (nonatomic, strong) NSNumber *topRight;
+@property (nonatomic, strong) NSNumber *bottomLeft;
+@property (nonatomic, strong) NSNumber *bottomRight;
 
 @end
