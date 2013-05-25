@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8539111750582B0051BBC4 /* FlatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8539101750582B0051BBC4 /* FlatTableViewController.m */; };
 		E068DCC8171514EA006DA7D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCC7171514EA006DA7D4 /* UIKit.framework */; };
 		E068DCCA171514EA006DA7D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCC9171514EA006DA7D4 /* Foundation.framework */; };
 		E068DCCC171514EA006DA7D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCCB171514EA006DA7D4 /* CoreGraphics.framework */; };
@@ -18,11 +19,12 @@
 		E068DCDE171514EA006DA7D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E068DCDD171514EA006DA7D4 /* Default-568h@2x.png */; };
 		E068DCE1171514EA006DA7D4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E068DCDF171514EA006DA7D4 /* MainStoryboard.storyboard */; };
 		E068DCEF17151567006DA7D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E068DCED1715155B006DA7D4 /* QuartzCore.framework */; };
-		E068DCF21715161A006DA7D4 /* FlatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E068DCF11715161A006DA7D4 /* FlatTableViewController.m */; };
 		E068DCF51715240D006DA7D4 /* FlatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E068DCF41715240D006DA7D4 /* FlatTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F85390F1750582B0051BBC4 /* FlatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatTableViewController.h; sourceTree = "<group>"; };
+		3F8539101750582B0051BBC4 /* FlatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatTableViewController.m; sourceTree = "<group>"; };
 		E068DCC4171514EA006DA7D4 /* FlatTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E068DCC7171514EA006DA7D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E068DCC9171514EA006DA7D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,8 +40,6 @@
 		E068DCDD171514EA006DA7D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E068DCE0171514EA006DA7D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E068DCED1715155B006DA7D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E068DCF01715161A006DA7D4 /* FlatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatTableViewController.h; sourceTree = "<group>"; };
-		E068DCF11715161A006DA7D4 /* FlatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatTableViewController.m; sourceTree = "<group>"; };
 		E068DCF31715240D006DA7D4 /* FlatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatTableViewCell.h; sourceTree = "<group>"; };
 		E068DCF41715240D006DA7D4 /* FlatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,8 +93,8 @@
 				E068DCD6171514EA006DA7D4 /* AppDelegate.h */,
 				E068DCD7171514EA006DA7D4 /* AppDelegate.m */,
 				E068DCDF171514EA006DA7D4 /* MainStoryboard.storyboard */,
-				E068DCF01715161A006DA7D4 /* FlatTableViewController.h */,
-				E068DCF11715161A006DA7D4 /* FlatTableViewController.m */,
+				3F85390F1750582B0051BBC4 /* FlatTableViewController.h */,
+				3F8539101750582B0051BBC4 /* FlatTableViewController.m */,
 				E068DCF31715240D006DA7D4 /* FlatTableViewCell.h */,
 				E068DCF41715240D006DA7D4 /* FlatTableViewCell.m */,
 				E068DCCE171514EA006DA7D4 /* Supporting Files */,
@@ -184,8 +184,8 @@
 			files = (
 				E068DCD4171514EA006DA7D4 /* main.m in Sources */,
 				E068DCD8171514EA006DA7D4 /* AppDelegate.m in Sources */,
-				E068DCF21715161A006DA7D4 /* FlatTableViewController.m in Sources */,
 				E068DCF51715240D006DA7D4 /* FlatTableViewCell.m in Sources */,
+				3F8539111750582B0051BBC4 /* FlatTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +308,7 @@
 				E068DCE9171514EA006DA7D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
