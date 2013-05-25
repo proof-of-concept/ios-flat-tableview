@@ -2,7 +2,7 @@
 //  FlatTableViewController.h
 //  FlatTableView
 //
-//  Created by Benjamin Philipp on 10.04.13.
+//  Created by Renzo Crisóstomo on 5/24/13.
 //  Copyright (c) 2013 Benjamin Philipp. All rights reserved.
 //
 
