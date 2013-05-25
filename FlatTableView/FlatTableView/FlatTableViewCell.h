@@ -11,6 +11,7 @@
 @interface FlatTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) UIColor *cellBackgroundColor;
+@property (nonatomic, strong) UIColor *cellSelectedColor;
 @property (nonatomic, strong) NSNumber *topLeft;
 @property (nonatomic, strong) NSNumber *topRight;
 @property (nonatomic, strong) NSNumber *bottomLeft;

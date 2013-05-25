@@ -76,6 +76,18 @@
 - (void)setSelected:(BOOL)selected
            animated:(BOOL)animated
 {
+    UIImage *mask = [UIView contextCreateRoundedMaskWithRect:self.selectedBackgroundView.bounds
+                                               radiusTopLeft:[_topLeft floatValue]
+                                              radiusTopRight:[_topRight floatValue]
+                                            radiusBottomLeft:[_bottomRight floatValue]
+                                           radiusBottomRight:[_bottomRight floatValue]];
+    CALayer *layerMask = [CALayer layer];
+    layerMask.frame = self.backgroundView.frame;
+    layerMask.contents = (id)mask.CGImage;
+    self.layer.backgroundColor = _cellSelectedColor.CGColor;
+    self.selectedBackgroundView = [[UIView alloc] init];
+    self.selectedBackgroundView.backgroundColor = _cellSelectedColor;
+    self.layer.mask = layerMask;
     [super setSelected:selected
               animated:animated];
 }
